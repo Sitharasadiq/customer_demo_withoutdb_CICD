@@ -24,6 +24,7 @@ public class CustomerService {
                 "Jane Smith", "jane@example.com", "Los Angeles", "CA", "USA"));
     }
 
+    // ✅ Get all customersg
     public List<Customer> getAllCustomers() {
         return customers;
     }
